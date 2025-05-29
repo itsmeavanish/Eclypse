@@ -1,5 +1,4 @@
-import React from "react";
-
+import * as React from "react";
 const Navbar: React.FC = () => {
   return (
     <nav className="flex justify-between items-center p-4 min-w-screen fixed z-10 backdrop-blur-2xl ">

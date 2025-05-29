@@ -1,4 +1,4 @@
-import React, { type JSX } from "react";
+import { type JSX } from "react";
 import { Card, CardContent } from "../components/ui/card";
 import { Separator } from "@radix-ui/react-separator";
 import { Button } from "../components/ui/button";
@@ -33,38 +33,6 @@ export const Home = (): JSX.Element => {
   ];
 
   // Gallery images data
-  const galleryImages = [
-    {
-      id: 1,
-      src: "https://c.animaapp.com/mb91au9rhWKL3a/img/frame-3.png",
-      alt: "Gallery image 1",
-      className: "w-[883px] h-[489px]",
-    },
-    {
-      id: 2,
-      src: "https://c.animaapp.com/mb91au9rhWKL3a/img/frame-18-2.png",
-      alt: "Gallery image 2",
-      className: "w-[424px] h-[489px]",
-    },
-    {
-      id: 3,
-      src: "https://c.animaapp.com/mb91au9rhWKL3a/img/frame-18.png",
-      alt: "Gallery image 3",
-      className: "w-[424px] h-[397px]",
-    },
-    {
-      id: 4,
-      src: "https://c.animaapp.com/mb91au9rhWKL3a/img/frame-18-1.png",
-      alt: "Gallery image 4",
-      className: "w-[424px] h-[397px]",
-    },
-    {
-      id: 5,
-      src: "https://c.animaapp.com/mb91au9rhWKL3a/img/frame-19.png",
-      alt: "Gallery image 5",
-      className: "w-[424px] h-[397px]",
-    },
-  ];
 
   // Accordion items data
   const accordionItems = [
